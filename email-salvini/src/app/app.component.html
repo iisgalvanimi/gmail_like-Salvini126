@@ -1,0 +1,17 @@
+<br><br>
+<div class="container">
+  
+  <form class="jumbotron">
+      <div class="form-group">
+        <input type="text" #textEmail><label>inserisci l'email</label> 
+      </div>
+      <div class="form-group">
+        <input type="text" #textObject><label>inserisci l'ogggetto dell'email</label>
+      </div>
+      <div class="form-group">
+        <input type="text" #textContext><label>Inserisci il testo</label>
+      </div>
+      <br>
+      <button class="btn-orange" (click) = "registrazione(textEmail, textObject, textContext)"> Invia </button>
+  </form>
+</div>
